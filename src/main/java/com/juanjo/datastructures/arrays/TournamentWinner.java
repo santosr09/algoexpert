@@ -1,7 +1,6 @@
 package com.juanjo.datastructures.arrays;
 
 import java.util.*;
-import java.util.function.BiFunction;
 
 public class TournamentWinner {
 	public String getWinner(

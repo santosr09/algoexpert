@@ -21,7 +21,8 @@ public class SortedSquaredTest {
 	@Test
 	public void sortedArrayTest(){
 		for(int item: obj.sortedSquaredArray(arrIn)){
-			System.out.println(item);
+			System.out.print(item);
+			System.out.print(" , ");
 		}
 	}
 }
