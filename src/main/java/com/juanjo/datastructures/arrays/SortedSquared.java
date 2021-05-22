@@ -1,8 +1,5 @@
 package com.juanjo.datastructures.arrays;
 
-import java.util.Arrays;
-import java.util.Iterator;
-
 import static java.lang.Math.abs;
 
 public class SortedSquared {
