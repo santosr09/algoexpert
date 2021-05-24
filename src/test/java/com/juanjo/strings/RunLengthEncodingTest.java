@@ -15,10 +15,10 @@ public class RunLengthEncodingTest {
 		testClass = new RunLengthEncoding();
 	}
 	
+	@Test
 	public void firsteMethodTest_1() {
-		String input = "";
-		testClass.runLengthEncoding(input);
-		Assertions.assertEquals("", "");
+		String input = "a";
+		Assertions.assertEquals("1a", testClass.runLengthEncoding(input));
 	}
 	
 @Test
