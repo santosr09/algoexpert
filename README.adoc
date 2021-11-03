@@ -1,0 +1,61 @@
+= ALGORITHMS AND DATA STRUCTURES
+:toc:
+
+== CODING IS MANIPULATING DATA
+Al that you do while coding is manipulating data. Your program recive data, applies operations on such data, and  produce data.
+
+Manipulating such data involves organising the data in specific structures,
+
+== DATA STRUCTURES
+It's a way to organize and manage data.
+
+Wikipedia:
+_A data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data,_
+
+== COMPLEXITY ANALISIS
+The process of determining how efficient an algorithm is. Usually involves finding both the *time complexity* and the *space complexity* of an algorithm.
+It's efecctivily used to determine how "good" an algorithm is and whether it's better than another one.
+
+Time complexity: A measure of how fast an algorithm runs, it's expressed using Big O notation.
+
+Space complexity: A measure of how much auxiliary memory an algorithm takes up.
+
+== Memory
+*Fixed-Width Integer*
+An integer represented by a *fixed amount of bits*. For example, a *32-bit integer* is an integer represented by 32 bits(4 bytes), and a *64-bit integer* is an integer represented by 64 bits(8 bytes).
+
+Example: The 32-bit representation of the number 1:
+00000000 00000000 00000000 00000001
+
+Example: The 64-bit representation of the number 10:
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001010
+
+* Data stored in memory is stored in bytes, and, by extension, bits.
+* Bytes in memory can "point" to other bytes in memory, so as to store references to other data.
+* The amount of memory that a machine has is bounded, making it valuable to limit how much memory an algorithm takes up.
+* Accessing a byte or a fixed number of bytes(like 4 bytes or 8 bytes in the case of *32-bit* and *64-bit integers*) is an elementary operation, which can be treated as a single unit operational work.
+
+
+== BIG O NOTATION
+The notation used to describe the *time complexity* and *space complexity* of algorithms.
+
+Variables used in Big O notation denote the size of inputs to algorithms.
+For example, *O(n)* might be the time complexity of an algorithm that traverses through an array of length *n*; similarly, *O(n + m)* might be the time complexity of an algorithm that traverses through an array of length *n* and trhough a string of length *m*.
+
+Examples of common complexities and their Big O notations, order from FASTEST to SLOWEST:
+*Constant:* O(1)
+*Logarithmic:* O(log(n))
+*Linear:* O(n)
+*Log-Linear:* O(n log(n))
+*Quadratic:* O(n exp2)
+*Cubic:* O(n exp3)
+*Exponential:* O(2 exp n)
+*Factorial:* O(n!)
+
+Big O notation is usually understood to describe the *worst-case* complexity of an algorithm, even though the worst-case complexity might differ from the *average-case* complexity.
+
+For example, some sorting algorithms have different time complexities dependeing on the layout of elements in their input array. In rare cases, their time complexity will be much worse than in more common cases. Similarly, an algorithm that takes in a String and performs special operations on uppercase characters might have a different time complexity when run on an input string of only uppercas characters vs. on an input string with just a few uppercase characters.
+
+
+
+== ALGORITHMS
